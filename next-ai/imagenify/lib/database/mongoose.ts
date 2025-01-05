@@ -26,7 +26,7 @@ if (!cached) {
  * 
  * @returns Mongoose connection
  */
-export const connectDB = async () => {
+export const connectToDatabase = async () => {
 
     // If the connection is already cached return the connection
     if (cached.connection) {
